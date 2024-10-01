@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from .crew import NoccFullstackRootstockSupabaseCrewV2
+from nocc_fullstack_rootstock_supabase_v2.crew import NoccFullstackRootstockSupabaseCrewV2
 
 load_dotenv()  # This loads the variables from .env
 

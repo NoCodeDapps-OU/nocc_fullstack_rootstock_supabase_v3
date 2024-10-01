@@ -1,7 +1,7 @@
 import os
 from crewai import Crew, Process
-from .agents import SmartContractAgents, FrontendAgents, BackendAgents
-from .tasks import SmartContractTasks, FrontendTasks, BackendTasks
+from nocc_fullstack_rootstock_supabase_v2.agents import SmartContractAgents, FrontendAgents, BackendAgents
+from nocc_fullstack_rootstock_supabase_v2.tasks import SmartContractTasks, FrontendTasks, BackendTasks
 
 class NoccFullstackRootstockSupabaseCrewV2:
     def __init__(self):

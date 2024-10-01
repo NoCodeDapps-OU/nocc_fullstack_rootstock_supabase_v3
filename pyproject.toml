@@ -3,6 +3,9 @@ name = "nocc_fullstack_rootstock_supabase_v2"
 version = "0.1.0"
 description = "nocc_fullstack_rootstock_supabase_v2 using crewAI"
 authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "nocc_fullstack_rootstock_supabase_v2", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<=3.13"
